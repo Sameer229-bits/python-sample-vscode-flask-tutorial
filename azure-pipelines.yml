@@ -35,3 +35,7 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'pytest'
+
+- script: 
+    print("Hello World!")
+  displayName: 'Hello world application'
